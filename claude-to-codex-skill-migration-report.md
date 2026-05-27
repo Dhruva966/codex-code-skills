@@ -31,6 +31,11 @@ The right strategy is:
 3. replace hooks with explicit preflight/postflight skills
 4. use official or standard migration paths when possible
 
+The repo now uses a two-layer structure:
+
+1. `codex-skill-port/` for the flat install bundle that syncs into `~/.codex/skills`
+2. `claude-families/` for a grouped close-port catalog that preserves a Claude-like family layout without creating duplicate installed skill names
+
 ## High-confidence ports
 
 Already staged in `codex-skill-port/`:
@@ -40,12 +45,14 @@ Already staged in `codex-skill-port/`:
 - `backend-patterns`
 - `code-tour`
 - `codebase-onboarding`
+- `click-path-audit`
 - `codex-superpowers`
 - `database-migrations`
 - `deep-research-report`
 - `deployment-patterns`
 - `docker-patterns`
 - `documentation-lookup`
+- `finishing-a-development-branch`
 - `frontend-patterns`
 - `git-workflow`
 - `hookless-preflight-postflight`
@@ -65,10 +72,14 @@ Already staged in `codex-skill-port/`:
 - `review-rubric`
 - `qa-orchestrator`
 - `office-hours`
+- `receiving-code-review`
+- `rules-distill`
 - `security-review`
 - `session-handoff`
+- `skill-stocktake`
 - `parallel-agent-coordination`
 - `using-git-worktrees`
+- `workspace-surface-audit`
 
 ## Best local source families
 

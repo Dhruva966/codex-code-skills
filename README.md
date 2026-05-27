@@ -21,7 +21,8 @@ This repo does **not** try to reproduce Claude-specific runtime behavior like ho
 
 ## What's here
 
-- [`codex-skill-port/`](./codex-skill-port) - the staged skill bundle
+- [`codex-skill-port/`](./codex-skill-port) - the flat, stable Codex install bundle
+- [`claude-families/`](./claude-families) - the grouped close-port catalog, organized in a Claude-like family layout
 - [`claude-to-codex-skill-migration-report.md`](./claude-to-codex-skill-migration-report.md) - research, feasibility notes, and migration guidance
 
 ## Included skills
@@ -31,6 +32,7 @@ This repo does **not** try to reproduce Claude-specific runtime behavior like ho
 - `backend-patterns`
 - `code-tour`
 - `codebase-onboarding`
+- `click-path-audit`
 - `codex-superpowers`
 - `decision-council`
 - `deep-research-report`
@@ -39,6 +41,7 @@ This repo does **not** try to reproduce Claude-specific runtime behavior like ho
 - `docker-patterns`
 - `documentation-lookup`
 - `executing-plans`
+- `finishing-a-development-branch`
 - `frontend-patterns`
 - `git-workflow`
 - `hookless-preflight-postflight`
@@ -50,18 +53,24 @@ This repo does **not** try to reproduce Claude-specific runtime behavior like ho
 - `plan-eng-review`
 - `python-testing`
 - `qa-orchestrator`
+- `receiving-code-review`
 - `research-ops`
 - `review-rubric`
+- `rules-distill`
 - `search-first-research`
 - `security-review`
 - `session-handoff`
+- `skill-stocktake`
 - `surgical-change`
 - `systematic-debugging`
 - `using-git-worktrees`
 - `verification-before-completion`
+- `workspace-surface-audit`
 - `writing-plans`
 
 ## Install
+
+The **flat** bundle in `codex-skill-port/` is the install target. The grouped `claude-families/` tree is for organization and browsing.
 
 Copy the skill directories into your Codex skills folder:
 
