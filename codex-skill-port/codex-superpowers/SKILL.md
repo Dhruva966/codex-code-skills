@@ -18,6 +18,8 @@ Use skills when they materially change the work:
 - broad research or technology choice: `search-first-research`
 - context gathering for codebase exploration or subagent prep: `iterative-retrieval`
 - current-state evidence gathering and comparisons: `research-ops`
+- current library/framework/API answers from primary docs: `documentation-lookup`
+- broad cited diligence or landscape synthesis: `deep-research-report`
 - independent workstreams, reviewers, or dissenting perspectives: `parallel-agent-coordination`
 - risky edits, scope creep, or "keep it simple": `surgical-change`
 - writing, reviewing, or refactoring code with simplicity and minimal-diff discipline: `karpathy-guidelines`
@@ -25,9 +27,17 @@ Use skills when they materially change the work:
 - ambiguous choices with real tradeoffs: `decision-council`
 - multi-step implementation planning before touching code: `writing-plans`
 - plan-following execution with explicit checks: `executing-plans`
+- architecture or implementation-plan readiness review: `plan-eng-review`
 - explicit bug/risk-focused review: `review-rubric`
+- security-sensitive feature review: `security-review`
 - browser-and-behavior shipping checks: `qa-orchestrator`
 - early-stage idea shaping and scope pressure-testing: `office-hours`
+- API contract or endpoint design: `api-design`
+- schema change and rollout safety: `database-migrations`
+- repo orientation and architecture mapping: `codebase-onboarding`
+- guided walkthroughs of real code paths: `code-tour`
+- git branching, commits, rebases, and collaboration hygiene: `git-workflow`
+- isolated branch work in separate workspaces: `using-git-worktrees`
 - wrapping a session with durable state and open questions: `session-handoff`
 
 If the source Claude skill is tool-specific, keep the underlying workflow and rewrite the mechanics for Codex.

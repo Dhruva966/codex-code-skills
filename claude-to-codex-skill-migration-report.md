@@ -35,7 +35,20 @@ The right strategy is:
 
 Already staged in `codex-skill-port/`:
 
+- `api-design`
+- `architecture-decision-records`
+- `backend-patterns`
+- `code-tour`
+- `codebase-onboarding`
 - `codex-superpowers`
+- `database-migrations`
+- `deep-research-report`
+- `deployment-patterns`
+- `docker-patterns`
+- `documentation-lookup`
+- `frontend-patterns`
+- `git-workflow`
+- `hookless-preflight-postflight`
 - `systematic-debugging`
 - `verification-before-completion`
 - `search-first-research`
@@ -47,11 +60,15 @@ Already staged in `codex-skill-port/`:
 - `decision-council`
 - `writing-plans`
 - `executing-plans`
+- `plan-eng-review`
+- `python-testing`
 - `review-rubric`
 - `qa-orchestrator`
 - `office-hours`
+- `security-review`
 - `session-handoff`
 - `parallel-agent-coordination`
+- `using-git-worktrees`
 
 ## Best local source families
 
@@ -155,17 +172,15 @@ Typical mapping:
 - Claude hooks -> partial or manual replacement only
 - plugins / marketplace wiring -> manual or tool-assisted migration
 
-## Current blocker
+## Current state
 
-The staged skills are in the workspace and validated.
-
-They are not yet installed into `~/.codex/skills` because writing outside the workspace required escalation and that escalation was rejected by the app’s approval/usage gate.
+The staged skills are in the workspace, published to the public repository, and synced into `~/.codex/skills`.
 
 ## Recommendation
 
-Install the staged bundle first.
+Use the staged bundle as the manual baseline.
 
-Then, if you want broader automated migration beyond this manual bundle, use:
+Then, if you want broader automated migration beyond this bundle, use:
 
 1. OpenAI `migrate-to-codex` as the reference workflow
 2. `plugin-claude-2-codex` for construct translation experiments

@@ -11,6 +11,12 @@ This repo does **not** try to reproduce Claude-specific runtime behavior like ho
 - review rubrics
 - QA orchestration
 - idea shaping
+- live documentation lookup
+- deep research synthesis
+- API and migration design
+- security review
+- codebase onboarding and code tours
+- git and worktree workflows
 - session handoff
 
 ## What's here
@@ -20,21 +26,38 @@ This repo does **not** try to reproduce Claude-specific runtime behavior like ho
 
 ## Included skills
 
+- `api-design`
+- `architecture-decision-records`
+- `backend-patterns`
+- `code-tour`
+- `codebase-onboarding`
 - `codex-superpowers`
 - `decision-council`
+- `deep-research-report`
+- `database-migrations`
+- `deployment-patterns`
+- `docker-patterns`
+- `documentation-lookup`
 - `executing-plans`
+- `frontend-patterns`
+- `git-workflow`
+- `hookless-preflight-postflight`
 - `iterative-retrieval`
 - `karpathy-guidelines`
 - `karpathy-style-engineering`
 - `office-hours`
 - `parallel-agent-coordination`
+- `plan-eng-review`
+- `python-testing`
 - `qa-orchestrator`
 - `research-ops`
 - `review-rubric`
 - `search-first-research`
+- `security-review`
 - `session-handoff`
 - `surgical-change`
 - `systematic-debugging`
+- `using-git-worktrees`
 - `verification-before-completion`
 - `writing-plans`
 
